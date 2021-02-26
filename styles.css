@@ -78,9 +78,7 @@ font-size: 18px;
     flex-direction: row; 
     flex-wrap: wrap; 
     color: rgb(1, 1, 77);
-    /* width: 100%;
-    margin: 40px;
-    padding: 40px;  */
+
 }
 
 .flexbox {
@@ -135,7 +133,6 @@ font-size: 18px;
     background-image: url(../assignmentportfolio/runbuddy.jpg);
 }
 
-
 .footer {
     align-content: center;
     text-decoration: underline;
@@ -147,7 +144,6 @@ font-size: 18px;
     height:60px;  
     width:80%;
 }
-
 
 #line1 {
     height:120px;
@@ -161,12 +157,11 @@ font-size: 18px;
     border-right: 3px solid rgb(2, 2, 70);
     position:absolute;
     right: 85%;
-    /* padding-top:80px; */
     
 }
 
 #line3 {
-    height: 60px;px;
+    height: 60px;
     border-right: 3px solid rgb(2, 2, 70);
     position:absolute;
     right: 85%;
@@ -176,7 +171,6 @@ font-size: 18px;
     padding-right: 10px;
     font-size: 36px;
     color:navy;
-    /* margin: 20px; */
     font-weight: bolder;
 }
 .side:hover {
