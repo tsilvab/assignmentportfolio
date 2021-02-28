@@ -6,9 +6,8 @@ body {
 .header {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    border: rgb(2, 2, 70);
-    background-color:rgb(2, 2, 70);
+    border:rgb(214, 208, 208);
+    background-color:rgb(214, 208, 208);
 }
 
 .header h1 {
@@ -16,20 +15,20 @@ body {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    border: dotted rebeccapurple;
-    background-color: rebeccapurple;
-    color:rgb(2, 2, 70);
+    border: solid rgb(1, 1, 77);
+    background-color:rgb(1, 1, 77);
+    color:rgb(131, 192, 211);
     padding-left: 40px;
     font-size: 50px;
 }
 
 .navigation{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     text-decoration: underline;
     justify-content: space-around;
-    vertical-align: middle;
     width: 100%;
+    padding-top: 50px;
     font-weight: bold;
     font-size: 20px;
 } 
@@ -37,22 +36,22 @@ body {
 .navigation a {
     display: flex;
     float: right;
-    color:purple;
+    color:rgb(1, 1, 77);
 }
 
 .inner-header {
     display:inline-box;
     width: 100%;
-    height: 350px;
+    height: 200px;
     border: solid rgb(2, 2, 70);
-    background-image: url(../assignmentportfolio/aboutmephoto.jpg);
+    background-image: url(../assignmentportfolio/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .inner-header h2 {
     float:right;
-    background-color:rebeccapurple;
+    background-color: rgb(131, 192, 211);
     text-align: center;
     color: rgb(2, 2, 70);
     font-size: 40px;
@@ -65,7 +64,7 @@ ul li {
 section p{
 display: flex;
 flex-wrap: wrap;
-padding-left:300px;
+padding-left:250px;
 font-size: 18px;
 
 }
@@ -74,8 +73,10 @@ font-size: 18px;
 .container { 
     display:flex;
     justify-content:center; 
+    flex-direction: row;
     width: 100%;
-    flex-direction: row; 
+    margin-left:120px;
+    flex-direction:unset; 
     flex-wrap: wrap; 
     color: rgb(1, 1, 77);
 
@@ -84,28 +85,35 @@ font-size: 18px;
 .flexbox {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
-    width: 60%;
-    margin: 60px;
-    padding: 70px;
+    flex-direction: row;
+    justify-content:center;
+    width: 40%;
+    margin: 10px;
     line-height: 1.25;
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 30px;
 }
+#flex {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(131, 192, 211);
+    border:rgb(1, 1, 77);
+    background-color:rgb(1, 1, 77);
+
+}
 
 #flexbox-2 {
     display:flex;
     flex-wrap: wrap;
-   justify-content: left;
-    border:3px solid rgb(34, 34, 155);
+    border:3px solid rgb(1, 1, 77);
     background-image: url(../assignmentportfolio/keyboard.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 36px;
     font-weight: bolder;
-    width: 30%;
-    margin: 40px;
+    width: 70%;
+    margin: 20px;
     padding: 60px;
     line-height: 1.25;
     height: 40%;
@@ -113,24 +121,56 @@ font-size: 18px;
 
 
 #flexbox-3 {
-    border:3px solid plum;
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 50px;
+    line-height: 1.25;
+    border:3px solid rgb(1, 1, 77);
     background-image:url(../assignmentportfolio/calculator.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #flexbox-4 {
-    border:3px solid rgb(22, 224, 224);
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 50px;
+    line-height: 1.25;
+    border:3px solid rgb(1, 1, 77);
     background-image:url(../assignmentportfolio/led-wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
 #flexbox-5 {
-    border:3px solid rgb(22, 224, 224);
+    display:flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-bottom:10px;
+    padding: 50px;
+    line-height: 1.25;
+    border:3px solid rgb(1, 1, 77);
     background-image: url(../assignmentportfolio/surf.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #flexbox-6 {
-    border: 3px solid plum;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 50px;
+    line-height: 1.25;
+    border: 3px solid rgb(1, 1, 77);
     background-image: url(../assignmentportfolio/runbuddy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .footer {
@@ -146,14 +186,14 @@ font-size: 18px;
 }
 
 #line1 {
-    height:120px;
+    height:170px;
     border-right: 3px solid rgb(2, 2, 70);
     position:absolute;
     right: 85%;
 }
 
 #line2 {
-    height:775px;
+    height:525px;
     border-right: 3px solid rgb(2, 2, 70);
     position:absolute;
     right: 85%;
@@ -161,7 +201,7 @@ font-size: 18px;
 }
 
 #line3 {
-    height: 60px;
+    height: 65px;
     border-right: 3px solid rgb(2, 2, 70);
     position:absolute;
     right: 85%;
@@ -170,24 +210,25 @@ font-size: 18px;
 .side {
     padding-right: 10px;
     font-size: 36px;
-    color:navy;
+    color:rgb(1, 1, 77);
     font-weight: bolder;
 }
 .side:hover {
     color: purple;
+    font-size: 37px;
 }
 
 .navigation :hover a{
     cursor: pointer;
     font-size: 25px;
-    color:plum
+    color:purple
 }
 div li:hover{
     cursor: pointer;
     color:purple;
 }
 
-.flexbox:hover{
+#flex:hover{
     font-size: 48;
     font-weight: bolder;
     cursor: pointer;
